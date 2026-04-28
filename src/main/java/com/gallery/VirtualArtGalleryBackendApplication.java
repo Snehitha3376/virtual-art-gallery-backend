@@ -1,0 +1,12 @@
+package com.gallery;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class VirtualArtGalleryBackendApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(VirtualArtGalleryBackendApplication.class, args);
+	}
+}
